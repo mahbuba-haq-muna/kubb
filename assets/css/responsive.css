@@ -1,0 +1,365 @@
+@media (min-width: 0px) and (max-width: 575px){
+    .navbar .nav-link{
+        background: rgba(10, 179, 222, 0.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+        color: var(--brand-color);
+    }
+    .navbar{
+        max-height: 70px;
+        position: relative;
+        z-index: 1;
+     }
+     .navbar .nav-item .nav-link{
+        font-size: 12px;
+     }
+     /* banner start  */
+     .banner-content h1{
+        font-size: 35px;
+        padding-top: 90px;
+        line-height: 1;
+     }
+     .banner-content h2{
+        font-size: 23px;
+     }
+     .banner-content p{
+        font-size: 12px;
+        padding-bottom: 80px;
+     }
+
+     /* intro start  */
+     .intro h2{
+        font-size: 20px;
+     }
+     .intro p{
+        font-size: 12px;
+        padding: 0;
+     }
+     /* service start  */
+     .service-section{
+        padding-top: 0px !important;
+     }
+     .service-section .service-title h2{
+        font-size: 14px;
+     }
+     .service-section .card-title{
+        font-size: 14px;
+     }
+     .service-section .card-text{
+        font-size: 12px;
+     }
+
+     /* insta start  */
+     .insta-section .insta-title h2{
+        font-size: 14px;
+        position: relative;
+     }
+     .insta-section .insta-title h2::before{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        left: 50px;
+        content: " ";
+    }
+    .insta-section .insta-title h2::after{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 50px;
+        content: " ";
+    }
+    .insta-section .insta-img img{
+        width: 100%;
+    }
+    .insta-section a{
+        font-size: 12px;
+    }
+    /* journal start  */
+    .journal-section .journal-title h2{
+        font-size: 14px;
+        position: relative;
+    }
+    .journal-section .journal-title h2::before{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        left: 25%;
+        content: " ";
+    }
+    .journal-section .journal-title h2::after{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 25%;
+        content: " ";
+    }
+    .journal-section .card .card-body .card-title{
+        font-size: 14px;
+    }
+    .journal-section .card .card-body small{
+        font-size: 11px;
+    }
+    .journal-section .card .card-body .card-text{
+        font-size: 12px;
+    }
+    /* about start  */
+    .about-section .about-title h2{
+        font-size: 14px;
+        padding-top: 8px;
+        position: relative;
+    }
+    .about-section .about-title h2::after{
+        width: 13%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 10px;
+        right: 60%;
+        content: " ";
+    }
+    .about-img{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .about-content .body p{
+        font-size: 14px;
+    }
+    .about-content .body .card-text small{
+        font-size: 12px;
+    }
+    .about-content .body{
+        padding-bottom: 10px;
+    }
+    .about-service{
+        padding-top: 20px;
+    }
+    .about-service .about-title2 h2{
+        font-size: 14px;
+        position: relative;
+    }
+    .about-service .about-title2 h2::after{
+        width: 17%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 65%;
+        content: " ";
+    }
+    .about-service .about-service-content h2{
+        font-size: 14px;
+    }
+    .about-service .about-service-content p{
+        font-size: 12px;
+    }
+    /* contact start  */
+    .contact-section .contact h2{
+        font-size: 14px;
+    }
+    .contact-section .contact p{
+        font-size: 12px;
+    }
+    .contact-section .contact p a{
+        font-size: 12px;
+    }
+    /* footer start  */
+    footer p{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar .nav-link{
+        background: rgba(10, 179, 222, 0.5);
+        border-bottom: 1px solid var(--white-color);
+        padding-right: 10px;
+        display: inline-block;
+        min-width: 150px;
+        color: var(--brand-color);
+    }
+    .navbar{
+        max-height: 70px;
+        position: relative;
+        z-index: 1;
+     }
+     .navbar .nav-item .nav-link{
+        font-size: 12px;
+     }
+     /* banner start  */
+     .banner-content h1{
+        font-size: 35px;
+        padding-top: 90px;
+        line-height: 1;
+     }
+     .banner-content h2{
+        font-size: 23px;
+     }
+     .banner-content p{
+        font-size: 12px;
+        padding-bottom: 80px;
+     }
+
+     /* intro start  */
+     .intro h2{
+        font-size: 20px;
+     }
+     .intro p{
+        font-size: 12px;
+        padding: 0;
+     }
+     /* service start  */
+     .service-section{
+        padding-top: 0px !important;
+     }
+     .service-section .service-title h2{
+        font-size: 14px;
+     }
+     .service-section .card-title{
+        font-size: 14px;
+     }
+     .service-section .card-text{
+        font-size: 12px;
+     }
+
+     /* insta start  */
+     .insta-section .insta-title h2{
+        font-size: 14px;
+        position: relative;
+     }
+     .insta-section .insta-title h2::before{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        left: 100px;
+        content: " ";
+    }
+    .insta-section .insta-title h2::after{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 100px;
+        content: " ";
+    }
+    .insta-section .insta-img img{
+        width: 100%;
+    }
+    .insta-section a{
+        font-size: 12px;
+    }
+    /* journal start  */
+    .journal-section .journal-title h2{
+        font-size: 14px;
+        position: relative;
+    }
+    .journal-section .journal-title h2::before{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        left: 25%;
+        content: " ";
+    }
+    .journal-section .journal-title h2::after{
+        width: 10%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 25%;
+        content: " ";
+    }
+    .journal-section .card .card-body .card-title{
+        font-size: 14px;
+    }
+    .journal-section .card .card-body small{
+        font-size: 11px;
+    }
+    .journal-section .card .card-body .card-text{
+        font-size: 12px;
+    }
+    /* about start  */
+    .about-section .about-title h2{
+        font-size: 14px;
+        padding-top: 8px;
+        position: relative;
+    }
+    .about-section .about-title h2::after{
+        width: 13%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 10px;
+        right: 60%;
+        content: " ";
+    }
+    .about-img{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .about-content .body p{
+        font-size: 14px;
+    }
+    .about-content .body .card-text small{
+        font-size: 12px;
+    }
+    .about-content .body{
+        padding-bottom: 10px;
+    }
+    .about-service{
+        padding-top: 20px;
+    }
+    .about-service .about-title2 h2{
+        font-size: 14px;
+        position: relative;
+    }
+    .about-service .about-title2 h2::after{
+        width: 17%;
+        height: 2px;
+        background: #D5D5D5;
+        position: absolute;
+        bottom: 8px;
+        right: 65%;
+        content: " ";
+    }
+    .about-service .about-service-content h2{
+        font-size: 14px;
+    }
+    .about-service .about-service-content p{
+        font-size: 12px;
+    }
+    /* contact start  */
+    .contact-section .contact h2{
+        font-size: 14px;
+    }
+    .contact-section .contact p{
+        font-size: 12px;
+    }
+    .contact-section .contact p a{
+        font-size: 12px;
+    }
+    /* footer start  */
+    footer p{
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}

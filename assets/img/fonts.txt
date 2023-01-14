@@ -1,0 +1,21 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+
+font-family: 'Roboto', sans-serif;
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+</style>
+
+font-family: 'Roboto Condensed', sans-serif;
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+</style>
+
+font-family: 'Roboto Slab', serif;

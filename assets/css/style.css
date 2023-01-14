@@ -1,0 +1,324 @@
+/*!
+ * Template Name/Project Name: kubb
+ * Developer Name: Mahbuba Haq Muna
+ * Conatct: muna3828@@gmail.com
+ * Visit: https://abc.info
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+/* common css start  */
+:root{
+    --brand-color: #28B8D8;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #505050;
+    --heading-color: #444;
+    --roboto-regular: 'Roboto', sans-serif;
+    --roboto-condensed: 'Roboto Condensed', sans-serif;
+    --roboto-slab: 'Roboto Slab', serif;
+ }
+ a{
+    text-decoration: none;
+ }
+ body{
+    background: #F9F9F9;
+ }
+/* common css end */
+
+/* header start  */
+header{
+    background: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* nav start  */
+.navbar{
+    background: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+.navbar .nav-item .nav-link{
+    font-size: 14px;
+    font-family: var(--roboto-condensed);
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.navbar .nav-item .active{
+    color: var(--brand-color);
+}
+.navbar .nav-item .nav-link:hover{
+    color: var(--brand-color);
+}
+.menu{
+    color: var(--brand-color) !important;
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+}
+/* banner start */
+.banner-content h1{
+    font-size: 50px;
+    font-family: var(--roboto-condensed);
+    color: var(--white-color);
+    padding-top: 180px;
+    line-height: .5;
+}
+.banner-content h2{
+    font-size: 40px;
+    font-family: var(--roboto-slab);
+    color: var(--white-color);
+}
+.banner-content p{
+    color: var(--white-color);
+    font-size: 14px;
+    font-family: var(--roboto-slab);
+    padding-bottom: 150px;
+}
+/* header end */
+
+/* intro start  */
+.intro{
+    background: #F9F9F9;
+}
+.intro h2{
+    font-size: 30px;
+    color: var(--text-color);
+    font-family: var(--roboto-slab);
+}
+.intro p{
+    font-size: 14px;
+    color: var(--text-color);
+    font-family: var(--roboto-regular);
+    padding-top: 15px;
+}
+/* intro end */
+
+/* service start  */
+.service-section{
+    background: #F9F9F9;
+}
+.service-section .service-title h2{
+    text-transform: uppercase;
+    font-family: var(--roboto-condensed);
+    color: var(--heading-color);
+    font-size: 18px;
+}
+.service-section .card-title{
+    font-size: 17px;
+    font-family: var(--roboto-slab);
+    font-weight: bold;
+}
+.service-section .card-text{
+    font-size: 14px;
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+}
+.service-section .card:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    transition: .3s all;
+}
+/* service end */
+
+/* insta start  */
+.insta-section{
+    background: #2C2C2C;
+}
+.insta-section .insta-title h2{
+    color: #D5D5D5;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--roboto-condensed);
+    position: relative;
+}
+.insta-section .insta-title h2::before{
+    width: 10%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    left: 31%;
+    content: " ";
+}
+.insta-section .insta-title h2::after{
+    width: 10%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    right: 31%;
+    content: " ";
+}
+.insta-section a{
+    border: 1px solid #D5D5D5;
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+    color: #D5D5D5;
+    padding: 10px 15px;
+    transition: .3s all;
+}
+.insta-section a:hover{
+    border: 2px solid var(--brand-color);
+    background: #D5D5D5;
+    color: var(--brand-color);
+}
+
+/* insta end */
+
+/* journal start  */
+.journal-section .journal-title h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--roboto-condensed);
+    color: var(--heading-color);
+    position: relative;
+}
+.journal-section .journal-title h2::before{
+    width: 10%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    left: 31%;
+    content: " ";
+}
+.journal-section .journal-title h2::after{
+    width: 10%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    right: 31%;
+    content: " ";
+}
+.journal-section .card .card-body .card-title{
+    font-size: 17px;
+    font-family: var(--roboto-slab);
+    font-weight: bold;
+    color: var(--heading-color);
+}
+.journal-section .card .card-body small{
+    font-size: 12px;
+    font-family: var(--roboto-regular);
+}
+.journal-section .card .card-body .card-text{
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+    color: var(--text-color);
+}
+.journal-section .card .card-body .card-text-bottom{
+    font-family: var(--roboto-regular);
+}
+.journal-section .card .card-body .card-text-bottom .con small{
+    border-bottom: 1px solid var(--brand-color);
+    display: inline-block;
+}
+.fa-heart:hover{
+    color: var(--brand-color);
+    transition: .3s;
+}
+/* journal end */
+
+/* about start  */
+.about-section .about-title h2{
+    font-size: 18px;
+    font-family: var(--roboto-condensed);
+    color: var(--heading-color);
+    text-transform: uppercase;
+    position: relative;
+}
+.about-section .about-title h2::after{
+    width: 17%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    right: 50%;
+    content: " ";
+}
+.about-me:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s all;
+}
+.about-content .body p{
+    font-size: 18px;
+    font-family: var(--roboto-slab);
+    color: var(--text-color);
+}
+.about-content .body .card-text small{
+    font-family: var(--roboto-regular);
+    font-size: 14px;
+}
+.about-service:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .3s all;
+}
+.about-service .about-title2 h2{
+    font-size: 18px;
+    font-family: var(--roboto-condensed);
+    color: var(--heading-color);
+    text-transform: uppercase;
+    position: relative;
+}
+.about-service .about-title2 h2::after{
+    width: 17%;
+    height: 2px;
+    background: #D5D5D5;
+    position: absolute;
+    bottom: 10px;
+    right: 60%;
+    content: " ";
+}
+.about-service .about-service-content h2{
+    font-size: 17px;
+    font-family: var(--roboto-slab);
+    font-weight: bold;
+    color: var(--heading-color);
+}
+.about-service .about-service-content p{
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+    color: var(--text-color);
+}
+/* about end */
+
+/* contact start  */
+.contact-section{
+    background: #373737;
+}
+.contact-section .contact h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--roboto-condensed);
+    color: #D5D5D5;
+}
+.contact-section .contact p{
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+    color: #D5D5D5;
+    transition: .3s all;
+}
+.contact-section .contact p:hover{
+    color: var(--brand-color);
+}
+.contact-section .contact p a{
+    font-size: 14px;
+    font-family: var(--roboto-regular);
+    color: #D5D5D5;
+    transition: .3s all;
+}
+.contact-section .contact p a:hover{
+    color: var(--brand-color);
+}
+/* contact end */
+
+/* footer start  */
+footer{
+    background: #333333;
+}
+footer p{
+    color: #D5D5D5;
+    font-family: var(--roboto-regular);
+    font-size: 14px;
+}
+/* footer end */
